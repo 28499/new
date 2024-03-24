@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Engineer Portfolio</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .frame {
+            height: 100px;
+            background: transparent no-repeat center;
+           background-size: cover;
+        }
+        .container1 {
+        
+        overflow: hidden;
+    }
+
+    .container1 img {
+        border-radius: 50%;/* Adjust image width as needed */
+        height: 100;
+        width: 300px;
+        margin-left: 10px;
+        float: right;
+
+    }
+
+    .p1{
+        margin: 0; /* Remove default margin */
+        line-height: 1.5; /* Adjust line height as needed */
+        font-size: 40px;
+        text-align: center;
+    }
+    .container4 {
+        max-width: 1500px; /* Adjust max-width as needed */
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: orange;
+    }
+    .container2 {
+        max-width: 1500px; /* Adjust max-width as needed */
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: gray;
+    }
+    .container3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1500px; /* Adjust max-width as needed */
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: lightgray;
+    }
+    .container3 img{
+        max-width: 100%;
+
+    }
+    
+        .text1 {
+            text-align: left;
+        }
+        .text2{
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <img class="frame" src="images/logo2.png" alt="My Logo">
+            </div>
+            <div>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#services" class="hover:text-gray-300">Services</a></li>
+                    <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-900 text-white py-20">
+        <div class="container1">
+            <img class="profile" src="images/profile.JPG" alt="My Logo">
+            <p class="p1">Hello, I'm Daniel Adonis an Electronic Engineer. <br>
+           With 10 years of experience in hardware, software repair and troubleshooting.</p>
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-600 text-white py-20">
+        <div class="container4">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <p class="text-lg text-center">I am an experienced electronic engineer with a passion for solving hardware and software challenges.<br>
+                Over the past 10 years, I've worked on various projects, from circuit design to firmware development.</p>
+                
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-500 py-20">
+        <div class="container2">
+            <h2 class="text-3xl font-bold text-center mb-8">Services</h2><br><br>
+                <p class="text1"> <b>Hardware Repair:</b> Diagnosing and repairing hardware issues in electronic devices such as computers, smartphones, tablets, and other consumer electronics.<br><br>
+
+                    <b>Software Troubleshooting:</b> Identifying and resolving software-related problems, including operating system issues, driver conflicts, and software compatibility issues.<br><br>
+                
+                         <b>Circuit Design:</b> Designing electronic circuits for various applications, including analog and digital circuits, power supplies, sensors, and control systems.<br><br>
+                
+                            <b>Microcontroller Programming:</b> Developing software for microcontrollers and embedded systems used in electronic devices and IoT (Internet of Things) applications.<br><br>
+                
+                                 <b>Electronic Testing:</b> Conducting tests and measurements to evaluate the performance and functionality of electronic components, circuits, and systems.<br><br>
+                
+                                    <b>Prototyping: </b>Building prototypes of electronic devices or systems to demonstrate functionality, test design concepts, and validate specifications.<br><br>
+                
+                                       <b>Consulting:</b> Providing expert advice and consulting services to individuals, businesses, or organizations on electronic engineering projects, product development, and technology adoption.<br><br>
+                
+                                            <b>Training and Education:</b> Offering training sessions, workshops, or educational programs on electronic engineering topics, including hardware design, software development, and troubleshooting techniques.</p><br><br>
+                
+                                                 <b> Technical Documentation: </b>Creating technical documentation, such as user manuals, datasheets, and specifications, for electronic products or systems.<br><br>
+                
+                                                     <b>Project Management:</b> Managing electronic engineering projects from conception to completion, including planning, budgeting, resource allocation, and coordination of activities.
+                    </p>
+                                                     
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-400 py-20">
+        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+        <p class="text2"><b>AI 4 CONTENT CREATION 14</b></p><br>
+        <div class="container3">
+            <img src="images/style.jpg" width="500" height="500">
+            <img src="images/style1.jpg" width="500" height="500">
+            <img src="images/style2.jpg" width="500" height="500">
+            <a href="https://28499.github.io/images/">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-100 py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+            <p class="text-lg text-center">Tell: +254790355282</p>
+            <p class="text-lg text-center">Email: danieladonis168@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+            <span class="text-gray-400"> | </span>
+            <a href="#" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- JavaScript -->
+    <script>
+        // Your JavaScript code here
+            // Smooth scrolling effect for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>
